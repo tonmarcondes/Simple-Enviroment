@@ -1,6 +1,6 @@
-# Ambiente Simple Network
+# Simple Network
 
-Lista de instalação dos softwares necessários para criação dos ambientes de desenvolvimento em máquinas Windows. Alguns dos nomes dos softwares já possuem o link para download ou tutorial de configuração. 
+Lista de instalação dos softwares necessários para criação dos ambientes de desenvolvimento em máquinas Windows. Alguns dos nomes dos softwares já possuem o link para download ou tutorial de configuração.
 
 ---
 
@@ -12,7 +12,7 @@ Lista de instalação dos softwares necessários para criação dos ambientes de
 
 - [ ] [Docker Desktop](https://desktop.docker.com/win/main/amd64/Docker%20Desktop%20Installer.exe)
 
-- [ ] [Java Open JDK 11]()
+- [ ] Java Open JDK 11
 
 - [ ] [Visual Studio Code](https://code.visualstudio.com/docs/?dv=win)
 
@@ -20,20 +20,23 @@ Lista de instalação dos softwares necessários para criação dos ambientes de
 
 - [ ] [NoSqlBooster](https://s3.nosqlbooster.com/download/releasesv8/nosqlbooster4mongo-8.0.9.exe)
 
+---
+
+## Docker
+
+No terminal do Windows (MS-DOS) executar o comando abaixo para baixar a versão correta do MongoDB para o container Docker.
+
+```shell
+docker run -d --name mongodb --restart always -p 27017:27017 -p 28017:28017 -e AUTH=no mongo:4.2.8
+```
+
+---
+
 ## Git
 
-No terminal do Windows (MS-DOS) executar o clone dos repositórios
-**sw-front** e **sw-back**.
+No terminal do Windows (MS-DOS) executar o clone dos repositórios.
 
-```shell
-git clone https://wmarcondesbr@bitbucket.org/gazetta/sw-front.git
-```
-
-```shell
-cd sw-front
-npn install
-npm start
-```
+### sw-back
 
 ```shell
 git clone https://wmarcondesbr@bitbucket.org/gazetta/sw-back.git
@@ -45,10 +48,24 @@ npn install
 npm start
 ```
 
-## Docker
-
-No terminal do Windows (MS-DOS) executar o comando abaixo para baixar a versão correta do MongoDB para o container Docker. 
+### sw-front
 
 ```shell
-docker run -d --name mongodb --restart always -p 27017:27017 -p 28017:28017 -e AUTH=no mongo:4.2.8
+git clone https://wmarcondesbr@bitbucket.org/gazetta/sw-front.git
+```
+
+```shell
+cd sw-front
+npn install
+npm start
+```
+
+---
+
+### VSCode
+
+Na pasta em que foram baixados os repositórios **sw-front** e **sw-back** executar o comando `code .` incluindo o espaço e o ponto após o comando conforme o exemplo do quadro de código abaoxo:
+
+```shell
+code .
 ```
