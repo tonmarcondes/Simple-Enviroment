@@ -6,25 +6,25 @@ Lista de instalação dos softwares necessários para criação dos ambientes de
 
 ## Baixar e Instalar
 
-- [ ] [Git 2.40.1^](https://github.com/git-for-windows/git/releases/download/v2.40.1.windows.1/Git-2.40.1-64-bit.exe)
+- [ ] [Git 2.40.1^](https://git-scm.com/downloads)
 
 - [ ] [Node 12.18.0](https://fabiojanio.medium.com/nvm-gerencie-m%C3%BAltiplas-instala%C3%A7%C3%B5es-do-node-js-6fcd0f13aaf7)
 
-- [ ] [Docker Desktop](https://desktop.docker.com/win/main/amd64/Docker%20Desktop%20Installer.exe)
+- [ ] [Docker Desktop](https://www.docker.com/products/docker-desktop/)
 
 - [ ] Java Open JDK 11
 
-- [ ] [Visual Studio Code](https://code.visualstudio.com/docs/?dv=win)
+- [ ] [Visual Studio Code](https://code.visualstudio.com/Download)
 
-- [ ] [OpenVPN Connect](https://openvpn.net/downloads/openvpn-connect-v3-windows.msi)
+- [ ] [OpenVPN Connect](https://openvpn.net/client/)
 
-- [ ] [NoSqlBooster](https://s3.nosqlbooster.com/download/releasesv8/nosqlbooster4mongo-8.0.9.exe)
+- [ ] [NoSqlBooster](https://nosqlbooster.com/downloads)
 
 ---
 
 ## Docker
 
-No terminal do Windows (MS-DOS) executar o comando abaixo para baixar a versão correta do MongoDB para o container Docker.
+No terminal executar o comando abaixo para baixar a versão correta do MongoDB para o container Docker.
 
 ```shell
 docker run -d --name mongodb --restart always -p 27017:27017 -p 28017:28017 -e AUTH=no mongo:4.2.8
