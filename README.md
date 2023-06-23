@@ -46,7 +46,7 @@ git clone https://wmarcondesbr@bitbucket.org/gazetta/sw-back.git
 
 ```shell
 cd sw-back
-git checkout manoel-teste
+git checkout #SOLICITAR A BRANCH AO SUPORTE
 npn install
 npm start
 ```
@@ -61,7 +61,7 @@ git clone https://wmarcondesbr@bitbucket.org/gazetta/sw-front.git
 
 ```shell
 cd sw-front
-git checkout manoel-teste
+git checkout #SOLICITAR A BRANCH AO SUPORTE
 npn install
 npm start
 ```
