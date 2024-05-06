@@ -8,13 +8,13 @@ Lista de instalação dos softwares necessários para criação dos ambientes de
 
 ## Baixar e Instalar
 
-- [ ] [Git 2.40.1^](https://git-scm.com/downloads)
+- [ ] [Git 2.45.1^](https://git-scm.com/downloads)
 
-- [ ] [Node 12.18.0](https://fabiojanio.medium.com/nvm-gerencie-m%C3%BAltiplas-instala%C3%A7%C3%B5es-do-node-js-6fcd0f13aaf7)
+- [ ] [Node 14.21.3](https://fabiojanio.medium.com/nvm-gerencie-m%C3%BAltiplas-instala%C3%A7%C3%B5es-do-node-js-6fcd0f13aaf7)
 
 - [ ] [Docker Desktop](https://www.docker.com/products/docker-desktop/)
 
-- [ ] Java Open JDK 11
+- [ ] [Java Open JDK 11](https://oracle.com/java/technologies/downloads/#/java11)
 
 - [ ] [Visual Studio Code](https://code.visualstudio.com/Download)
 
