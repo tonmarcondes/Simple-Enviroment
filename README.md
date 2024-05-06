@@ -47,7 +47,7 @@ git clone https://x-token-auth:ATCTT3xFfGN0MNigx2ldqsi5ZlDX_NXYqn3dCLl_QzfZa2Iwx
 ```shell
 cd sw-back
 git checkout #SOLICITAR A BRANCH AO SUPORTE
-npn install
+npm install
 npm start
 ```
 
@@ -62,11 +62,23 @@ git clone https://x-token-auth:ATCTT3xFfGN0HyQmNntGazOQuxM8nEi9a5CCJl2xwytLWbb7V
 ```shell
 cd sw-front
 git checkout #SOLICITAR A BRANCH AO SUPORTE
-npn install
+npm install
 npm start
 ```
 
 > Caso no arquivo **src/environments/environment.ts** os parâmetros `apiUrl`, `wsUrl` e `promoUrl` não estiverem apontando para seu localhost, altere.
+
+
+### campaign-processor
+
+```shell
+git clone https://x-token-auth:ATCTT3xFfGN0kHIVltahtzeOEPdq25CYAjxlD7RQz7wt0YHSdIfvuJtnGL9-_0dzlwUrk52rIaI7sg3KWS54sspiOtArTcrg1eamuHuod7d2YnKgWfLm8vjFGC_51xRkoOaeRAmazfekXFMR63wuEEh21q8XhxnJCBZHsenusoJYi1MBxeUdvx8\=7DB47826@bitbucket.org/gazetta/campaign-processor.git
+```
+
+```shell
+cd campaign-processor/scripts
+```
+
 ---
 
 ### VSCode
