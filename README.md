@@ -41,7 +41,7 @@ Crie uma pasta e clone os repositórios abaixo conforme o exemplo.
 ### sw-back
 
 ```shell
-git clone https://wmarcondesbr@bitbucket.org/gazetta/sw-back.git
+git clone https://x-token-auth:ATCTT3xFfGN0MNigx2ldqsi5ZlDX_NXYqn3dCLl_QzfZa2IwxUrTrtKD_2AQ6mI1izdfYEVKbrf-xe2PTFdd-S1suH7f4b28-9eEP2Aps487fDVWD3h0Xq55esZZOGorV35zHasUZ0UueAvyzM3LsbAEPAChFyRKoEqyTOZtZ0ouhnX1PWWBet0\=425AB261@bitbucket.org/gazetta/sw-back.git
 ```
 
 ```shell
@@ -56,7 +56,7 @@ npm start
 ### sw-front
 
 ```shell
-git clone https://wmarcondesbr@bitbucket.org/gazetta/sw-front.git
+git clone https://x-token-auth:ATCTT3xFfGN0HyQmNntGazOQuxM8nEi9a5CCJl2xwytLWbb7VpjbUk0KRtL2qx1QdMqb-3Rl5HbvkbOvWuNBcwC5f83eiM-N-wGPU_mZUdayjW5R2waW_fV5quJsK9u17_FkW4Pq4hLqbPfWoASKUZdQIirh2CxMARto9ZfDjeifBj31Z16wRjw\=6648AB8D@bitbucket.org/gazetta/sw-front.git
 ```
 
 ```shell
