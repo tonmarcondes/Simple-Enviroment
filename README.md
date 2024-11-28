@@ -10,7 +10,7 @@ Lista de instalação dos softwares necessários para criação dos ambientes de
 
 - [ ] [Git 2.45.1^](https://git-scm.com/downloads)
 
-- [ ] [Node 14.21.3](https://fabiojanio.medium.com/nvm-gerencie-m%C3%BAltiplas-instala%C3%A7%C3%B5es-do-node-js-6fcd0f13aaf7)
+- [ ] [Nvm 14.21.3](https://fabiojanio.medium.com/nvm-gerencie-m%C3%BAltiplas-instala%C3%A7%C3%B5es-do-node-js-6fcd0f13aaf7)
 
 - [ ] [Docker Desktop](https://www.docker.com/products/docker-desktop/)
 
@@ -29,7 +29,7 @@ Lista de instalação dos softwares necessários para criação dos ambientes de
 No terminal executar o comando abaixo para baixar a versão correta do MongoDB para o container Docker.
 
 ```shell
-docker run -d --name mongodb --restart always -p 27017:27017 -p 28017:28017 -e AUTH=no mongo:4.2.8
+docker run -d --name mongodb --restart always -p 27017:27017 -p 28017:28017 -e AUTH=no mongo:7.0
 ```
 
 ---
@@ -51,17 +51,24 @@ npm install
 npm start
 ```
 
-> Dentro de **sw-back/scripts** execute `atualizaBibliotecas`
+> Dentro de **sw-back/scripts** execute `atualizaBibliotecas.sh`
 
 ### sw-front
 
 ```shell
-git clone https://x-token-auth:ATCTT3xFfGN0HyQmNntGazOQuxM8nEi9a5CCJl2xwytLWbb7VpjbUk0KRtL2qx1QdMqb-3Rl5HbvkbOvWuNBcwC5f83eiM-N-wGPU_mZUdayjW5R2waW_fV5quJsK9u17_FkW4Pq4hLqbPfWoASKUZdQIirh2CxMARto9ZfDjeifBj31Z16wRjw\=6648AB8D@bitbucket.org/gazetta/sw-front.git
+git clone https://x-token-auth:ATCTT3xFfGN0Or4T0dZIbKdGuNVruGmlL_v4YfGRGaIYZziSCvcwibfCDDy1WH_Roy-EdNrVJdETD15_MyINa1WmrcjfPERfRol2MRkajzPz5hrY7WYF8T4yb9EEePtfKrhI72qk6xqDxPsVtMmi3H6HOLAN32lSrvcMIQhZLBO7NI_XyMMrTIM=4034EC90@bitbucket.org/gazetta/sw-front.git
+
+cd sw-front
+
+git config user.email 433fjiq7l10s5e3cwxaxni5qvzkd0q@bots.bitbucket.org
+
+git config --global user.name "INSIRA_SEU_NOME_AQUI"
 ```
 
 ```shell
 cd sw-front
 git checkout #SOLICITAR A BRANCH AO SUPORTE
+nvm install 12.18.0
 npm install
 npm start
 ```
