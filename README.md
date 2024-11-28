@@ -10,7 +10,7 @@ Lista de instalação dos softwares necessários para criação dos ambientes de
 
 - [ ] [Git 2.45.1^](https://git-scm.com/downloads)
 
-- [ ] [Node 14.21.3](https://fabiojanio.medium.com/nvm-gerencie-m%C3%BAltiplas-instala%C3%A7%C3%B5es-do-node-js-6fcd0f13aaf7)
+- [ ] [Nvm 14.21.3](https://fabiojanio.medium.com/nvm-gerencie-m%C3%BAltiplas-instala%C3%A7%C3%B5es-do-node-js-6fcd0f13aaf7)
 
 - [ ] [Docker Desktop](https://www.docker.com/products/docker-desktop/)
 
