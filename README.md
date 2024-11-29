@@ -71,6 +71,9 @@ git checkout #SOLICITAR A BRANCH AO SUPORTE
 nvm install 12.18.0
 npm install
 npm start
+
+Instalar a extensão "Cross Domain - CORS" 
+https://chromewebstore.google.com/detail/cross-domain-cors/mjhpgnbimicffchbodmgfnemoghjakai?pli=1
 ```
 
 > Caso no arquivo **src/environments/environment.ts** os parâmetros `apiUrl`, `wsUrl` e `promoUrl` não estiverem apontando para seu localhost, altere.
